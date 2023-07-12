@@ -1,0 +1,125 @@
+.Fashionsince__container {
+  padding: 3%;
+}
+.Fashionsince__rightsection {
+  width: 100%;
+  position: relative;
+}
+.Fashionsince__image-img {
+  width: 90%;
+  border-radius: 150px 0px 0px 0px;
+
+  max-height: 680px;
+  object-fit: cover;
+}
+.Fashionsince__greydots-1 {
+  position: absolute;
+  right: 0;
+  top: -60px;
+  width: 20%;
+}
+.Fashionsince__greydots-2 {
+  position: absolute;
+  left: 30%;
+  bottom: -170px;
+  z-index: -1;
+  width: 20%;
+}
+.Fashionsince__leftsection {
+  width: 100%;
+  flex-direction: column;
+  position: relative;
+}
+.Fashionsince__lefttab-heading {
+  font-size: 4rem;
+  font-weight: 700;
+}
+.Fashionsince__lefttab-text {
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 2.1rem;
+  width: 30ch;
+}
+.Fashionsince__goldtab {
+  position: absolute;
+
+  bottom: -300px;
+  margin-left: -25%;
+  padding: 7%;
+  width: 110%;
+  justify-content: space-around;
+  background: linear-gradient(
+    83.43deg,
+    #cd8922 0.44%,
+    rgba(255, 184, 79, 0.45) 95.53%
+  );
+  border-radius: 20px;
+  z-index: -1;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25),
+    inset 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.p__podkova {
+  font-weight: 700;
+  font-size: 4rem;
+}
+.p__spec {
+  font-weight: 500px;
+  font-size: 1.6rem;
+}
+.f__line {
+  width: 1px;
+  height: 100px;
+  background: #000000;
+  margin: 5%;
+}
+
+@media screen and (max-width: 1150px) {
+  .p__podkova {
+    font-weight: 500;
+    font-size: 1.5rem;
+  }
+  .p__spec {
+    font-weight: 300;
+    font-size: 1rem;
+  }
+  .Fashionsince__goldtab {
+    bottom: -160px;
+    width: 100%;
+    margin-left: 0;
+    padding: 1%;
+    border-radius: 10px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .Fashionsince__container {
+    flex-direction: column;
+  }
+  .Fashionsince__lefttab-heading {
+    font-size: 2rem;
+    font-weight: 500;
+  }
+  .Fashionsince__lefttab-text {
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 1.2rem;
+    width: 30ch;
+  }
+  .Fashionsince__greydots-2 {
+    position: absolute;
+    left: 75%;
+    z-index: -1;
+    width: 30%;
+  }
+  .Fashionsince__goldtab {
+    bottom: -110px;
+    width: 100%;
+    margin-left: 0;
+    padding: 1%;
+    border-radius: 10px;
+  }
+
+  .f__line {
+    height: 50px;
+  }
+}

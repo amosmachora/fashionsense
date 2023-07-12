@@ -1,0 +1,29 @@
+.Card__container {
+  display: flex;
+  justify-content: center;
+}
+.Card__container-overall {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.Card__container-page2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.Card__container::-webkit-scrollbar {
+  display: none;
+}
+
+@media screen and (max-width: 650px) {
+  .Card__container {
+    flex-direction: column;
+  }
+  .Card__container-overall {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+  }
+}
